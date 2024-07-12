@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+/* styles/global.css */
+body {
+  @apply bg-customBackground;
+  margin: 0; 
+  height: 100%;
+  
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
