@@ -11,6 +11,7 @@ const HomePage = () => {
 					src='/logo.svg'
 					height={300}
 					width={300}
+					alt='logo'
 				/>
 			</div>
 			<div className='flex flex-1 items-center flex-col justify-around gap-4'>
